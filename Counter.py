@@ -77,7 +77,7 @@ def add_bg_from_local(image_file):
     )
 
 # Add OM logo (place your om.jpg/gif in the same folder)
-add_bg_from_local(r"C:\pyprojects\om.gif")
+add_bg_from_local(r"om.gif")
 
 # Title
 st.markdown("<h1 style='text-align:center; color:#0d1b2a;'>🕉️ Mantra Counter</h1>", unsafe_allow_html=True)
@@ -105,3 +105,4 @@ st.markdown(
     "<p style='text-align:center; color:purple; font-size:18px;'>Keep chanting... Stay blessed 🙏</p>",
     unsafe_allow_html=True
 )
+
