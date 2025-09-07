@@ -80,7 +80,7 @@ def add_bg_from_local(image_file):
 add_bg_from_local(r"om.gif")
 
 # Title
-st.markdown("<h1 style='text-align:center; color:#0d1b2a;'>🕉️ Mantra Counter</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center; color:white;'>🕉️ Mantra Counter</h1>", unsafe_allow_html=True)
 
 # Session state for counter
 if "count" not in st.session_state:
@@ -105,4 +105,5 @@ st.markdown(
     "<p style='text-align:center; color:purple; font-size:18px;'>Keep chanting... Stay blessed 🙏</p>",
     unsafe_allow_html=True
 )
+
 
